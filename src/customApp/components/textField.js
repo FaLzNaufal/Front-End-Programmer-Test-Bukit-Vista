@@ -1,13 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { useState } from "react";
 import { Input } from "antd";
 import Form from "../../components/uielements/form";
 import IntlMessages from "../../components/utility/intlMessages.js";
-import axios from "axios";
-import Checkbox from "../../components/uielements/checkbox";
-import Button from "../../components/uielements/button";
-import Notification from "../../components/notification";
-import { useEffect } from "react";
 const FormItem = Form.Item;
 
 //text field to search for booking code

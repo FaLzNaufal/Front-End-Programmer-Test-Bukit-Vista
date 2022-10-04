@@ -641,10 +641,14 @@
   "topbar.totalPrice": "Total Price",
   "inline.hi": "Hi ",
   "inline.exclamation": "!",
+  "inline.submit": "Submit",
   "guestDetails.greeting": "Thank you for booking with Bukit Vista. Here are the details of your current booking.",
   "guestDetails.propertyName": "Property Name: ",
   "guestDetails.checkInDate": "Check In Date: ",
   "guestDetails.checkOutDate": "Check Out Date: ",
   "guestDetails.arrivalTime": "Arrival Time: ",
-  "guestDetails.notSet": "Please set your arrival time"
+  "guestDetails.notSet": "Please set your arrival time",
+  "arrival.success": "Your arrival time has been set",
+  "arrival.error": "There was an error setting your arrival time",
+  "arrival.eta": "ETA"
 }

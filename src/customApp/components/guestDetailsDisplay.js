@@ -1,21 +1,12 @@
 import React, { Component } from "react";
-import { useState } from "react";
-import { Input } from "antd";
-import Form from "../../components/uielements/form";
 import IntlMessages from "../../components/utility/intlMessages.js";
 import IsoWidgetsWrapper from "../../containers/Widgets/widgets-wrapper";
 import VCardWidget from "../../containers/Widgets/vCard/vCard-widget";
-import axios from "axios";
-import Checkbox from "../../components/uielements/checkbox";
-import Button from "../../components/uielements/button";
-import Notification from "../../components/notification";
-import { useEffect } from "react";
-import intlMessages from "../../components/utility/intlMessages.js";
-const FormItem = Form.Item;
 //display guest details
-const GuestDetailsDisplay = ({ data }) => {
+const GuestDetailsDisplay = ({ data, setDisplay }) => {
   //do not display anything if data is empty
   if (data.booking_code) {
+    setDisplay(true);
     return (
       <>
         <IsoWidgetsWrapper>
@@ -60,6 +51,9 @@ const GuestDetailsDisplay = ({ data }) => {
         </IsoWidgetsWrapper>
       </>
     );
-  } else return null;
+  } else {
+    setDisplay(false);
+    return null;
+  }
 };
 export default GuestDetailsDisplay;
