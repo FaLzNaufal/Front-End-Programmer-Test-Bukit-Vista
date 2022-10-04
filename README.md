@@ -24,7 +24,7 @@ A page for guest to check their booking details and update their arrival time. I
 5. Log in to the website without entering anything
 6. Click on "Guest Portal" from the side bar
 7. Enter your booking code (available sample booking codes are HIJ12345, HIJ12346, and HIJ12347)
-8. To change arrival time, enter your desired arival time in the time picker and then click on "Submit"
+8. To change arrival time, enter your desired arrival time in the time picker and then click on "Submit"
 
 ## Directory Description
 My work is under the src/customApp directory the page itself is in guestDetails.js. The components used on the page is in arrival.js, guestDetailsDisplay.js, and textField.js
