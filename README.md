@@ -20,7 +20,7 @@ A page for guest to check their booking details and update their arrival time. I
     ```
     yarn start
     ```
-4. Open http://localhost:3000/ on yout browser (usually opens automatically after yarn start)
+4. Open http://localhost:3000/ on your browser (usually opens automatically after yarn start)
 5. Log in to the website without entering anything
 6. Click on "Guest Portal" from the side bar
 7. Enter your booking code (available sample booking codes are HIJ12345, HIJ12346, and HIJ12347)
