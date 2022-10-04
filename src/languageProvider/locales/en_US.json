@@ -287,6 +287,7 @@
     "You could pass AutoComplete.Option as children of AutoComplete   instead of using dataSource",
   "forms.autocomplete.customizeTitle": "Customize Input Component",
   "forms.autocomplete.customizeSubTitle": "Customize Input Component",
+  "forms.guestPortal.prompt": "Your Booking Code",
   "uiElements.badge.badge": "Badge",
   "uiElements.badge.basicExample": "Basic Example",
   "uiElements.badge.basicExampleSubTitle":
@@ -637,5 +638,13 @@
   "topbar.logout": "Logout",
   "topbar.viewAll": "View All",
   "topbar.viewCart": "View Cart",
-  "topbar.totalPrice": "Total Price"
+  "topbar.totalPrice": "Total Price",
+  "inline.hi": "Hi ",
+  "inline.exclamation": "!",
+  "guestDetails.greeting": "Thank you for booking with Bukit Vista. Here are the details of your current booking.",
+  "guestDetails.propertyName": "Property Name: ",
+  "guestDetails.checkInDate": "Check In Date: ",
+  "guestDetails.checkOutDate": "Check Out Date: ",
+  "guestDetails.arrivalTime": "Arrival Time: ",
+  "guestDetails.notSet": "Please set your arrival time"
 }
