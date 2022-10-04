@@ -1,7 +1,7 @@
 # Front-End-Programmer-Test-Bukit-Vista
 
 ## Description
-A page for guest to check their booking details and update their arrival time. It uses the ReactJS framework and isomorphic library.
+A page for guest to check their booking details and update their arrival time. It uses ReactJS and isomorphic library.
 
 ## Requirements
 - [yarn](https://classic.yarnpkg.com/lang/en/docs/install/)
