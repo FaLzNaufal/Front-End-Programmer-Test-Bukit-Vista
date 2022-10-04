@@ -29,4 +29,4 @@ A page for guest to check their booking details and update their arrival time. I
 ## Directory Description
 My work is under the src/customApp directory the page itself is in guestDetails.js. The components used on the page is in arrival.js, guestDetailsDisplay.js, and textField.js
 
-### author : Muhammad Naufal Satriandana
+### Author : Muhammad Naufal Satriandana
